@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.CucumberOptions.SnippetType;
 
 @CucumberOptions(
-				features = {"src/test/resources"},
+				features = {"src/test/resources/feature3_Deletepolicy.feature"},
 				glue = {"stepDefinition", "hooks"}, 
 				snippets = SnippetType.CAMELCASE, 
 				plugin = {"pretty", "json:target\\cucumber.json", 
