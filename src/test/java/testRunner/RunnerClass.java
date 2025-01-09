@@ -5,13 +5,13 @@ import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.CucumberOptions.SnippetType;
 
 @CucumberOptions(
-				features = {"src/test/resources/feature3_Deletepolicy.feature"},
+				features = {"src/test/resources"},
 				glue = {"stepDefinition", "hooks"}, 
 				snippets = SnippetType.CAMELCASE, 
 				plugin = {"pretty", "json:target\\cucumber.json", 
 									"html:target\\htmlreport.html"},
-				dryRun = true
-				// tags = "@login"
+				dryRun = true,
+				 tags = "@TableHeader"
 				)
 public class RunnerClass extends AbstractTestNGCucumberTests 
 {
