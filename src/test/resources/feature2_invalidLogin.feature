@@ -1,4 +1,5 @@
-@All_Scenarios
+#Author: ShivaShankranK
+@All_Scenario
 Feature: Invalid login Credentials validation
 	
   Scenario Outline: Validation of invalid credentials

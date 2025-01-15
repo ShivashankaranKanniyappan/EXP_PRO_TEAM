@@ -1,5 +1,5 @@
-#Author: Suthir
-@TableHeader
+#Author: Suthirshana
+@All_Scenario
 Feature: Get Table Header
 
   @scenario_01

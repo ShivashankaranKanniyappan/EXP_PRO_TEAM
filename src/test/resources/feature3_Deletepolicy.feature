@@ -1,7 +1,5 @@
-#Author: Suthir
-
-@All_scenario
-#@deletePolicy
+#Author: Suthirshana
+@All_Scenario
 Feature: Delete Policy
 
   @delete_cancel
