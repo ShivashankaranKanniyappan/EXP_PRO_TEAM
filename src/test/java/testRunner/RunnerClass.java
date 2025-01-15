@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.CucumberOptions.SnippetType;
 
 @CucumberOptions(
-				features = {"src/test/resources"},
+				features = "src/test/resources/feature6_forgotPassword.feature",
 				glue = {"stepDefinition", "hooks"}, 
 				snippets = SnippetType.CAMELCASE, 
 				plugin = {"pretty", "json:target\\cucumber.json", 
@@ -13,7 +13,9 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 				dryRun = true
 				// tags = "@login"
 				)
-public class RunnerClass extends AbstractTestNGCucumberTests 
+public class RunnerClass extends AbstractTestNGCucumberTests
 {
 		
+	 
+	
 }
