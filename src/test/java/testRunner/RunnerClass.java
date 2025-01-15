@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.CucumberOptions.SnippetType;
 
 @CucumberOptions(
-				features = "src/test/resources/feature6_forgotPassword.feature",
+				features = "src/test/resources",
 				glue = {"stepDefinition", "hooks"}, 
 				snippets = SnippetType.CAMELCASE, 
 				plugin = {"pretty", "json:target\\cucumber.json", 
