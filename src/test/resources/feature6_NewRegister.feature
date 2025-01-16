@@ -10,8 +10,8 @@ Feature: Register New User
     Then User should get the Success Message
 
     Examples: 
-      | Email            | Password | ConfirmPassword |
-      | test211@test.com | tester@1 | tester@1        |
+      | Email         | Password | ConfirmPassword |
+      | Gopi@test.com | Gopi@1   | Gopi@1          |
 
   @registeredUser
   Scenario Outline: Validating Registered Users
@@ -20,5 +20,5 @@ Feature: Register New User
     Then It should be logged in Successfully
 
     Examples: 
-      | Username         | Password |
-      | test211@test.com | tester@1 |
+      | Username      | Password |
+      | Gopi@test.com | Gopi@1   |
