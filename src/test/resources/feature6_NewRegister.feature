@@ -1,6 +1,6 @@
 #Author: GopiRajan
  
-@All_Scenarios
+@All_Scenario
 Feature: Register New User
  
   @newUser

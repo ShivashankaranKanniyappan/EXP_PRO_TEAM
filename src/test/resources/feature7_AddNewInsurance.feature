@@ -1,5 +1,5 @@
 #Author: Aarthi
-@All_Scenarios
+@All_Scenario
 Feature: New Insurance
 
   Scenario Outline: user enters insurance policy details
