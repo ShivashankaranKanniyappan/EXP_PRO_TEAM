@@ -1,6 +1,7 @@
-@Author: ShivaShankranK
+
 @All_Scenario
 Feature: Validating Login credentials for ExpleoSurance
+		Author: Shiva	
 
   Scenario: Validation of Login using valid credentials
     When User Enter Username and Password

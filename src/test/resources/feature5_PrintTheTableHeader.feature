@@ -1,6 +1,6 @@
-@Author: Suthirshana
 @All_Scenario
 Feature: Get Table Header
+  Author: Suthirshana
 
   @scenario_01
   Scenario Outline: Print table header in console

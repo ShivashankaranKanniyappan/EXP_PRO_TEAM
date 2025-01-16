@@ -1,7 +1,6 @@
-@Author: Suthirshana
-@All_Scenario
-@ForgetPassword
+@All_Scenario @ForgetPassword
 Feature: User is changing the password
+  Author: Suthirshana
 
   @ChangePassword
   Scenario: User is changing the Password

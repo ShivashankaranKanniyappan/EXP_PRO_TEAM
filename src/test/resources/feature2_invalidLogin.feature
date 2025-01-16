@@ -1,7 +1,7 @@
-@Author: ShivaShankranK
 @All_Scenario
 Feature: Invalid login Credentials validation
-	
+  Author: Shiva
+
   Scenario Outline: Validation of invalid credentials
     Given User Enters invalid "<username>" and invalid "<password>"
     When User Click the login button

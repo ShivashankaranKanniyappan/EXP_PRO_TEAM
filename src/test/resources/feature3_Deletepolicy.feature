@@ -1,6 +1,6 @@
-@Author: Suthirshana
 @All_Scenario
 Feature: Delete Policy
+  Author: Suthirshana
 
   @delete_cancel
   Scenario Outline: Validating Delete Policy for Cancel button

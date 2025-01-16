@@ -1,6 +1,6 @@
-@Author: Aarthi
 @All_Scenario
 Feature: New Insurance
+  Author: Aarthi
 
   Scenario Outline: user enters insurance policy details
     Given user is on the login page with valid credential
