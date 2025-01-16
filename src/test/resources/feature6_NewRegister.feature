@@ -1,5 +1,4 @@
-#Author: GopiRajan
- 
+@Author: GopiRajan
 @All_Scenario
 Feature: Register New User
  

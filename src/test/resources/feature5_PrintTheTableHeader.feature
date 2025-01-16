@@ -1,4 +1,4 @@
-#Author: Suthirshana
+@Author: Suthirshana
 @All_Scenario
 Feature: Get Table Header
 

@@ -1,4 +1,4 @@
-#Author: Suthirshana
+@Author: Suthirshana
 @All_Scenario
 @ForgetPassword
 Feature: User is changing the password

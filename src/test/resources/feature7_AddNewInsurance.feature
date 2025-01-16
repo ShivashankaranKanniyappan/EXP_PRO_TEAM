@@ -1,4 +1,4 @@
-#Author: Aarthi
+@Author: Aarthi
 @All_Scenario
 Feature: New Insurance
 
