@@ -1,7 +1,6 @@
-
 @All_Scenario
-Feature: Validating Login credentials for ExpleoSurance
-		Author: Shiva	
+Feature: TC1_Login credentials validation for ExpleoSurance
+  Author: Shiva
 
   Scenario: Validation of Login using valid credentials
     When User Enter Username and Password

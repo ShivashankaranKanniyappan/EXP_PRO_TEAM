@@ -1,5 +1,5 @@
 @All_Scenario
-Feature: Invalid login Credentials validation
+Feature: TC2_Invalid login Credentials validation
   Author: Shiva
 
   Scenario Outline: Validation of invalid credentials

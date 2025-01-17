@@ -1,5 +1,6 @@
-@All_Scenario @ForgetPassword
-Feature: User is changing the password
+@All_Scenario 
+@ForgetPassword
+Feature: TC4_Forget Password Validation
   Author: Suthirshana
 
   @ChangePassword

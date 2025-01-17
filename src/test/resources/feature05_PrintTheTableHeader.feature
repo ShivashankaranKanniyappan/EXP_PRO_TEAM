@@ -1,5 +1,5 @@
 @All_Scenario
-Feature: Get Table Header
+Feature: TC5_Get Table Header
   Author: Suthirshana
 
   @scenario_01

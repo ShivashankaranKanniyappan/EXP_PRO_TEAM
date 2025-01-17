@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import driverInstance.drivers;
 import io.cucumber.java.en.*;
 
-public class steps1_login extends drivers {
+public class steps01_login extends drivers {
 	
 	@When("User Enter Username and Password")
 	public void user_enter_username_and_password() throws InterruptedException {

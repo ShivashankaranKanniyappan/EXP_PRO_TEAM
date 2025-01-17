@@ -1,5 +1,5 @@
 @All_Scenario
-Feature: Delete Policy
+Feature: TC3_Delete Policy
   Author: Suthirshana
 
   @delete_cancel

@@ -11,7 +11,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class steps3_deletePolicy extends drivers {
+public class steps03_deletePolicy extends drivers {
 
 	
 	@Given("User opens the login page")

@@ -1,5 +1,5 @@
 @All_Scenario
-Feature: New Insurance
+Feature: TC7_New Insurance Validation
   Author: Aarthi
 
   Scenario Outline: user enters insurance policy details

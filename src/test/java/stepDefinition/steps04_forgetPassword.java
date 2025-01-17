@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.cucumber.java.en.*;
 
-public class steps4_forgetPassword {
+public class steps04_forgetPassword {
 	
 	WebDriver driver = new ChromeDriver();
 	

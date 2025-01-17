@@ -12,7 +12,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class steps2_invalidLogin extends drivers {
+public class steps02_invalidLogin extends drivers {
 
 	@Given("User Enters invalid {string} and invalid {string}")
 	public void user_enters_invalid_and_invalid(String username, String password) {

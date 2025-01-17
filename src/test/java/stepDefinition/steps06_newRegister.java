@@ -8,7 +8,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class steps6_NewRegister extends drivers {
+public class steps06_newRegister extends drivers {
 	
 	@Given("User Clicks the Register New Account")
 	public void user_clicks_the_register_new_account() {

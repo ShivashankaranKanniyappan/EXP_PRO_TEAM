@@ -1,5 +1,5 @@
 @All_Scenario
-Feature: Register New User
+Feature: TC6_Register New User
   Author: GopiRajan
 
   @newUser

@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class steps5_printTheTableHeader {
+public class steps05_printTheTableHeader {
 	
 	WebDriver driver = new ChromeDriver();
 	

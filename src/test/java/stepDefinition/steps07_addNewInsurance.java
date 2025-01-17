@@ -9,7 +9,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class steps7_addNewInsurance extends drivers{
+public class steps07_addNewInsurance extends drivers{
 
     @Given("user is on the login page with valid credential")
 	public void user_is_on_the_login_page_with_valid_credential() {
