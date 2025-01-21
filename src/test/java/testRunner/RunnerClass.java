@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 				plugin = { "pretty", "json:target\\cucumber.json", 
 							"html:target\\htmlreport.html" }, 
 				tags = "@All_Scenarios", 
-				dryRun = false		
+				dryRun = true		
 				)
 public class RunnerClass extends AbstractTestNGCucumberTests {
 
