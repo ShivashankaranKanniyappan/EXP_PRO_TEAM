@@ -1,7 +1,7 @@
 @All_Scenarios
-Feature: TC2_Invalid login Credentials validation
-  Author: Shiva
-
+Feature: ES02_Invalid login Credentials validation for Expleosurance
+  Author: ShivaShankaran
+	
   Scenario Outline: Validation of invalid credentials
     Given User Enters invalid "<username>" and invalid "<password>"
     When User Click the login button
