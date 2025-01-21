@@ -1,6 +1,6 @@
 @All_Scenarios
 #@TableHeader
-Feature: TC04_Get Table Header
+Feature: ES04_Get Table Header
 #Author: Suthir
   @scenario_01
   Scenario Outline: Print table header in console
