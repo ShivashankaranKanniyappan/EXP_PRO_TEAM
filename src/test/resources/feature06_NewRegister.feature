@@ -1,4 +1,4 @@
-@All_Scenario
+@All_Scenarios
 Feature: TC6_Register New User
   Author: GopiRajan
 

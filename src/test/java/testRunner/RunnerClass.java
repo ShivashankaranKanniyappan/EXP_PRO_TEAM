@@ -4,12 +4,12 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-				features = "src/test/resources", 
+				features = "src/test/resources/feature10_NewInsuranceNegativeScenarios.feature", 
 				glue = { "stepDefinition", "hooks" }, 
 				plugin = { "pretty", "json:target\\cucumber.json", 
 							"html:target\\htmlreport.html" }, 
-				tags = "@All_Scenario", 
-				dryRun = true		
+				// tags = "@All_Scenarios", 
+				dryRun = false		
 				)
 public class RunnerClass extends AbstractTestNGCucumberTests {
 

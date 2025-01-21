@@ -1,4 +1,4 @@
-@All_Scenario
+@All_Scenarios
 Feature: TC2_Invalid login Credentials validation
   Author: Shiva
 

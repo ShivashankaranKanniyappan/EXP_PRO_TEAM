@@ -1,4 +1,4 @@
-@All_Scenario
+@All_Scenarios
 Feature: TC7_New Insurance Validation
   Author: Aarthi
 

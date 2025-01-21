@@ -1,4 +1,4 @@
-@All_Scenario
+@All_Scenarios
 Feature: TC1_Login credentials validation for ExpleoSurance
   Author: Shiva
 

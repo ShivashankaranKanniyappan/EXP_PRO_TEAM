@@ -1,4 +1,4 @@
-@All_Scenario 
+@All_Scenarios
 @ForgetPassword
 Feature: TC4_Forget Password Validation
   Author: Suthirshana

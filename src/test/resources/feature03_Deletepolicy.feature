@@ -1,4 +1,4 @@
-@All_Scenario
+@All_Scenarios
 Feature: TC3_Delete Policy
   Author: Suthirshana
 
