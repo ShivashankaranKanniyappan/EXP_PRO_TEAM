@@ -8,8 +8,8 @@ import io.cucumber.testng.CucumberOptions;
 				glue = { "stepDefinition", "hooks" }, 
 				plugin = { "pretty", "json:target\\cucumber.json", 
 							"html:target\\htmlreport.html" }, 
-				// tags = "@All_Scenarios", 
-				dryRun = false		
+				tags = "@All_Scenarios", 
+				dryRun = true		
 				)
 public class RunnerClass extends AbstractTestNGCucumberTests {
 

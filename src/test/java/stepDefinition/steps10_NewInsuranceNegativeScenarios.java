@@ -53,7 +53,6 @@ public class steps10_NewInsuranceNegativeScenarios extends drivers {
 		selectSumInsured.selectByVisibleText("1,00,000");
 		Thread.sleep(2000);
 		driver.findElement(By.id("Premium")).sendKeys("10");
-
 	}
 
 	@Then("User click the Submit button and it should show Error")
