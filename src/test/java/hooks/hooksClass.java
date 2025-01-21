@@ -22,8 +22,9 @@ public class hooksClass extends drivers {
 	
 	@After
 	public void quitBrowser() {
-		 driver.quit();
-
+	    if (driver != null) {
+	        driver.quit();
+	    }
 	}
 
 }

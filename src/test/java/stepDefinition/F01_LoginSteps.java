@@ -19,7 +19,6 @@ public class F01_LoginSteps extends drivers {
 
 	@When("User Enter Username and Password")
 	public void user_enter_username_and_password() throws InterruptedException {
-
 		WebElement username = driver.findElement(By.xpath("//input[@placeholder='Email Address']"));
 		username.sendKeys("shivashankaran.kanniyappan@expleogroup.com");
 		WebElement password = driver.findElement(By.xpath("//input[@placeholder='Password']"));
