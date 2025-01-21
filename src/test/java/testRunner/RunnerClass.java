@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-				features = "src/test/resources/feature03_AddNewInsurance.feature", 
+				features = "src/test/resources//feature05_ForgetPassword.feature", 
 				glue = { "stepDefinition", "hooks" }, 
 				plugin = { "pretty", "json:target\\cucumber.json", 
 							"html:target\\htmlreport.html" }, 
