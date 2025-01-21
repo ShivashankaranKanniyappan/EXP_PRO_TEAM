@@ -18,4 +18,3 @@ Feature: ES10_New Insurance Details - Negative Test Cases
       | ExpTester | ExpleoTester3@expleo.com |         | 03/01/1993 |    5645 |
       | ExpTester | ExpleoTester4@expleo.com | EXPLEO  |            |    6456 |
       | ExpTester | ExpleoTester8@expleo.com | EXPLEO  | 10/28/2000 |         |
-      | ExpTester | ExpleoTester8@expleo.com | EXPLEO  | 10/28/2000 |    4321 |
