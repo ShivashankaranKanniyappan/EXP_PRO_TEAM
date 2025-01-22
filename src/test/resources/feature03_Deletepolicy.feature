@@ -1,7 +1,6 @@
-
 @All_Scenarios
 #@deletePolicy
-Feature: ES03_Delete Policy
+Feature: ES03_Suthir_Delete Policy
 #Author: Suthir
 
   @delete_cancel

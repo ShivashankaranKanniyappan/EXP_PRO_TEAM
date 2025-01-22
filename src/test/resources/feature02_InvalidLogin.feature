@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: ES02_Invalid login Credentials validation for Expleosurance
+Feature: ES02_Shiva_Invalid login Credentials validation for Expleosurance
   Author: ShivaShankaran
 	
   Scenario Outline: Validation of invalid credentials

@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: ES09_Get Title and Current URL
+Feature: ES09_Shiva_Get Title and Current URL
   Author: ShivaShankaran
 
   Scenario: Validating Title and Current URL

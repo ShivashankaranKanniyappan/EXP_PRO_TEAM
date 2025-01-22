@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: ES10_New Insurance Details - Negative Test Cases
+Feature: ES10_Shiva_New Insurance Details - Negative Test Cases
   Author: ShivaShankaran
 
   Scenario Outline: Validating New Insurance Details - Without Fields

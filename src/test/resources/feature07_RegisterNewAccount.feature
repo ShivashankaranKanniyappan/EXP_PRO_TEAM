@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: ES07_Register New Account
+Feature: ES07_Aarthi_Register New Account
 Author: Aarthi
 
   Scenario Outline: user register the new account
