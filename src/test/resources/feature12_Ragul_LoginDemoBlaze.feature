@@ -1,4 +1,4 @@
-@DemoBlaze
+@All_Scenarios @DemoBlaze
 Feature: ES12_Ragul_User Login
   Author: Ragul
 
