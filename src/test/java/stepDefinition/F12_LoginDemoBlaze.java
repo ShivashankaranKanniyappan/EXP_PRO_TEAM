@@ -11,15 +11,11 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class F12_LoginDemoBlaze extends drivers  {
-
-	// WebDriver driver = new ChromeDriver();
-
+	
 	@Given("user navigate to the login page")
-	public void navigateToLoginPage() {
-		//driver = new ChromeDriver();
-		//driver.get("https://www.demoblaze.com/index.html");
-
+	public void navigateToLoginPage() throws InterruptedException {
 		WebElement loginButton = driver.findElement(By.id("login2"));
+		Thread.sleep(2000);
 		loginButton.click();
 	}
 
