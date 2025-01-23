@@ -14,18 +14,12 @@ public class hooksClass extends drivers {
 
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		String url = "http://192.168.99.141:3000/";
-
-
-
-		if (scenario.getSourceTagNames().contains("@deleteUser")) {
-			url = "http://192.168.99.141:3000/home";
-		} else if (scenario.getSourceTagNames().contains("@DemoBlaze")) {
-			url = "https://www.demoblaze.com/index.html";
+		if (scenario.getSourceTagNames().contains("@DemoBlaze")) {
+			driver.get("https://www.demoblaze.com/");
+		} else {
+			driver.get("http://192.168.99.141:3000/");
 		}
 
-
-		driver.get(url);
 	}
 
 	@After

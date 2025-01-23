@@ -5,13 +5,13 @@ import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.CucumberOptions.SnippetType;
 
 @CucumberOptions(
-				features = "src/test/resources/feature12_LoginDemoBlaze.feature", 
+				features = "src/test/resources", 
 				glue = { "stepDefinition", "hooks" }, 
 				plugin = { "pretty", "json:target\\cucumber.json", 
 							"html:target\\htmlreport.html" },
-				snippets = SnippetType.UNDERSCORE,
-				//tags = "@DemoBlaze", 
-				dryRun = false		
+				//Snippet = SnippetType.UNDERSCORE,
+				tags = "@All_Scenarios", 
+				dryRun = true		
 				)
 public class RunnerClass extends AbstractTestNGCucumberTests {
 
