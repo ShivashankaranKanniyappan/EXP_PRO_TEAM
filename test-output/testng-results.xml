@@ -2,12 +2,17 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2025-01-23T18:30:42 IST" name="Default suite" finished-at="2025-01-23T18:30:52 IST" duration-ms="10153">
+=======
+  <suite started-at="2025-01-24T15:26:25 IST" name="Default suite" finished-at="2025-01-24T15:26:51 IST" duration-ms="25995">
+>>>>>>> Ragul
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.RunnerClass@65d09a04]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
+<<<<<<< HEAD
     <test started-at="2025-01-23T18:30:42 IST" name="Default test" finished-at="2025-01-23T18:30:52 IST" duration-ms="10153">
       <class name="testRunner.RunnerClass">
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.RunnerClass@65d09a04]" started-at="2025-01-23T18:30:42 IST" name="setUpClass" finished-at="2025-01-23T18:30:42 IST" duration-ms="530" status="PASS">
@@ -15,29 +20,54 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@c1fca2a]]>
+=======
+    <test started-at="2025-01-24T15:26:25 IST" name="Default test" finished-at="2025-01-24T15:26:51 IST" duration-ms="25995">
+      <class name="testRunner.RunnerClass">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.RunnerClass@65d09a04]" started-at="2025-01-24T15:26:25 IST" name="setUpClass" finished-at="2025-01-24T15:26:26 IST" duration-ms="552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4016ccc1]]>
+>>>>>>> Ragul
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.RunnerClass@65d09a04]" started-at="2025-01-23T18:30:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-23T18:30:52 IST" duration-ms="9508" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA["Successful login with valid credentials"]]>
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.RunnerClass@65d09a04]" started-at="2025-01-24T15:26:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-24T15:26:51 IST" duration-ms="25350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User successfully navigates to the "Laptops" category"]]>
+>>>>>>> Ragul
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["ES12_Ragul_User Login"]]>
+=======
+                <![CDATA["ES17_Ragul_Navigating to Categories"]]>
+>>>>>>> Ragul
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.RunnerClass@65d09a04]" started-at="2025-01-23T18:30:52 IST" name="tearDownClass" finished-at="2025-01-23T18:30:52 IST" duration-ms="61" status="PASS">
+=======
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.RunnerClass@65d09a04]" started-at="2025-01-24T15:26:51 IST" name="tearDownClass" finished-at="2025-01-24T15:26:51 IST" duration-ms="58" status="PASS">
+>>>>>>> Ragul
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
