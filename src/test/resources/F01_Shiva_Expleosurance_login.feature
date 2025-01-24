@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: ES01_Shiva_Validating Login credentials for ExpleoSurance
+Feature: Expleosurance01_Shiva_Login credentials
   Author: ShivaShankaran
 
   Scenario: Validation of Login using valid credentials

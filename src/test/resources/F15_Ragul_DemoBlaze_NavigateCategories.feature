@@ -1,5 +1,5 @@
 @All_Scenarios @DemoBlaze
-Feature: ES17_Ragul_Navigating to Categories
+Feature: FS17_DemoBlaze_Ragul_Navigating to Categories
   Author: Ragul
 
   Scenario: User successfully navigates to the "Laptops" category

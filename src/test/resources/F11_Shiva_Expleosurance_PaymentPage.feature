@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: ES11_Shiva_Payment Page Validation
+Feature: Expleosurance11_Shiva_Payment Page Validation
 	Author: ShivaShankaran
 
   Scenario: Validation of Premium Calculation in Payment Page

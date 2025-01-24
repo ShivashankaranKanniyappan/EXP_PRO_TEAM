@@ -1,7 +1,7 @@
 @All_Scenarios 
 @Sauce_Demo
-Feature: Login to Sauce Demo
-  Author: Suthir
+Feature: SD16_SauceDemo_Aarthi_Login faunctionality
+  Author: Aarthi
 
   Scenario: SauceDemo Successful login with valid credentials
     Given User should be in Sauce Demo login page

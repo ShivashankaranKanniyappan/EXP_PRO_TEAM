@@ -1,5 +1,5 @@
 @All_Scenarios @Sauce_Demo
-Feature: Add to cart product
+Feature: SD20_Suthir_SauceDemo_Add to cart product
   Author: Suthir
 
   Scenario: Successful login with valid credentials
@@ -12,4 +12,3 @@ Feature: Add to cart product
     Then User clicks the continue button
     And User navigate to the overview page
     Then user click finish buton
-    And Quit the browser

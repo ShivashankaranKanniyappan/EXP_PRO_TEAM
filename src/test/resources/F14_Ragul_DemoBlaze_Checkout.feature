@@ -1,6 +1,6 @@
 @All_Scenarios
 @DemoBlaze
-Feature: ES14_Ragul_Checkout Process
+Feature: FS14_DemoBlaze_Ragul_Checkout Process
 Author: Ragul
    Scenario: Successfully proceed to checkout
     Given user is on the homepage
