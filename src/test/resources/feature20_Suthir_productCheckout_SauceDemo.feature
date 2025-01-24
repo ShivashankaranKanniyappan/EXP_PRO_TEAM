@@ -1,7 +1,6 @@
-#@AddToCart
+@All_Scenarios @Sauce_Demo
 Feature: Add to cart product
-
-#Author: Suthir
+  Author: Suthir
 
   Scenario: Successful login with valid credentials
     Given User navigate to the Sauce Demo login page
@@ -14,4 +13,3 @@ Feature: Add to cart product
     And User navigate to the overview page
     Then user click finish buton
     And Quit the browser
-    

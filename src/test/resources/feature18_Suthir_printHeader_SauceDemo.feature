@@ -1,4 +1,5 @@
-#@TableHeader
+@All_Scenarios
+@Sauce_Demo
 Feature: Print the Header Swag Labs 
 
 #Author: Suthir

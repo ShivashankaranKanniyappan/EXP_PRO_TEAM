@@ -1,7 +1,6 @@
-#@Logout
+@All_Scenarios @Sauce_Demo
 Feature: Logout Sauce Demo
-
-#Author: Suthir
+  Author: Suthir
 
   Scenario: Successful login with valid credentials
     Given User navigate to the Sauce Demo login page
