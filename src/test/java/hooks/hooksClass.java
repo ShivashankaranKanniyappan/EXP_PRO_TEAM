@@ -8,23 +8,23 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 
 public class hooksClass extends drivers {
-	
+
 	@Before
 	public void browserLaunch(Scenario scenario) {
+
 		driver = new ChromeDriver();
-	    driver.manage().window().maximize();
-	    if (scenario.getSourceTagNames().contains("@deleteUser")) {
-	        driver.get("http://192.168.99.141:3000/home");
+		    driver.manage().window().maximize();
+	    if (scenario.getSourceTagNames().contains("@DemoBlaze")) {
+	        driver.get("https://www.demoblaze.com/");
 	    } else {
-	        driver.get("http://192.168.99.141:3000/");
-	    }
+	        driver.get("http://192.168.99.141:3000/");	    }
 	}
-	
+
 	@After
 	public void quitBrowser() {
-	    if (driver != null) {
-	        driver.quit();
-	    }
+		if (driver != null) {
+			driver.quit();
+		}
 	}
 
 }
