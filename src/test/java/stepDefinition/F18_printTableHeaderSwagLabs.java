@@ -16,7 +16,4 @@ public class F18_printTableHeaderSwagLabs extends drivers {
 		String text = header.getText();
 		System.out.println(text);
 	}
-
-
-
 }

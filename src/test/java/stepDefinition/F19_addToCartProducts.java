@@ -6,7 +6,7 @@ import driverInstance.drivers;
 import io.cucumber.java.en.Then;
 
 public class F19_addToCartProducts extends drivers {
-	
+
 	@Then("Add to Cart products")
 	public void add_to_cart_products() throws InterruptedException {
 		driver.findElement(By.xpath("(//button[text()='Add to cart'])[1]")).click();
@@ -16,9 +16,5 @@ public class F19_addToCartProducts extends drivers {
 		String Saucelabs = driver.findElement(By.xpath(("//div[text()='Sauce Labs Backpack']"))).getText();
 		System.out.println(Saucelabs);
 		Assert.assertEquals(Saucelabs, "Sauce Labs Backpack");
-	
-	    
 	}
-
-
 }

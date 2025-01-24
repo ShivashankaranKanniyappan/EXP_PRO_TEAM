@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>35/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jan 24 17:14:32 IST 2025</td>
+<td>Started on:</td><td>Fri Jan 24 21:52:16 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (695 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1337 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,85 +76,180 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "SauceDemo Successful login with valid credentials", "Login to Sauce Demo"</td>
-<td><div><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinition.F05_forgetPassword.quit_the_browser() and stepDefinition.F16_LoginPagetoSauceDemo.quit_the_browser()
-	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1364127192", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1364127192'><pre>io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in stepDefinition.F05_forgetPassword.quit_the_browser() and stepDefinition.F16_LoginPagetoSauceDemo.quit_the_browser()
-	at io.cucumber.core.runner.CachingGlue.lambda$prepareGlue$3(CachingGlue.java:278)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at io.cucumber.core.runner.CachingGlue.prepareGlue(CachingGlue.java:272)
-	at io.cucumber.core.runner.Runner.runPickle(Runner.java:72)
-	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
-	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
-	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
-	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user enters insurance policy details", "ES06_Aarthi_New Insurance"</td>
+<td></td>
 <td>0</td>
-<td>testRunner.RunnerClass@385e9564</td></tr>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Delete Policy and Yes button", "ES03_Suthir_Delete Policy"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating New Insurance Details - Without Fields", "ES10_Shiva_New Insurance Details - Negative Test Cases"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "ES12_Ragul_User Login"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Delete Policy for Cancel button", "ES03_Suthir_Delete Policy"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user enters insurance policy details", "ES06_Aarthi_New Insurance"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of Empty credentials", "ES02_Shiva_Invalid login Credentials validation for Expleosurance"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "SauceDemo Successful login with valid credentials", "Login to Sauce Demo"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Title and Current URL", "ES09_Shiva_Get Title and Current URL"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating New Insurance Details - Without Fields", "ES10_Shiva_New Insurance Details - Negative Test Cases"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of Login using valid credentials", "ES01_Shiva_Validating Login credentials for ExpleoSurance"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a product to the cart", "ES13_Ragul_Product Search"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "Add to cart product"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user enters insurance policy details", "ES06_Aarthi_New Insurance"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "Print the Header Swag Labs"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Print table header in console", "ES04_Suthir_Get Table Header"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete the Managed Users", "ES08_Aarthi_Admin Panel"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully proceed to checkout", "ES14_Ragul_Checkout Process"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating New Insurance Details - Without Fields", "ES10_Shiva_New Insurance Details - Negative Test Cases"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "Logout Sauce Demo"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of invalid credentials", "ES02_Shiva_Invalid login Credentials validation for Expleosurance"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of Empty credentials", "ES02_Shiva_Invalid login Credentials validation for Expleosurance"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user enters insurance policy details", "ES06_Aarthi_New Insurance"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating New Insurance Details - Without Fields", "ES10_Shiva_New Insurance Details - Negative Test Cases"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "Add to cart product"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of Empty credentials", "ES02_Shiva_Invalid login Credentials validation for Expleosurance"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user enters insurance policy details", "ES06_Aarthi_New Insurance"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of invalid credentials", "ES02_Shiva_Invalid login Credentials validation for Expleosurance"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user register the new account", "ES07_Aarthi_Register New Account"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is changing the Password", "ES05_Suthir_Forget password functionalities"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating New Insurance Details - Without Fields", "ES10_Shiva_New Insurance Details - Negative Test Cases"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of invalid credentials", "ES02_Shiva_Invalid login Credentials validation for Expleosurance"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "Add to cart product"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User successfully navigates to the "Laptops" category", "ES17_Ragul_Navigating to Categories"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
+<tr>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of Premium Calculation in Payment Page", "ES11_Shiva_Payment Page Validation"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.RunnerClass@5aebe890</td></tr>
 </table><p>
 </body>
 </html>

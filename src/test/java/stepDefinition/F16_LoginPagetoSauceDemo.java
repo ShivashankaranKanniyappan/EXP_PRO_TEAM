@@ -7,27 +7,19 @@ import driverInstance.drivers;
 import io.cucumber.java.en.*;
 
 public class F16_LoginPagetoSauceDemo extends drivers {
-	 
-	@Given("User navigate to the Sauce Demo login page")
-	public void User_navigate_to_the_sauce_demo_login_page() {
-		System.out.println("User enter login Page Successfully");
+	
+	@Given("User should be in Sauce Demo login page")
+	public void user_should_be_in_sauce_demo_login_page() {
+		System.out.println("User enter login Page Successfully"); 
 	}
-
-	@When("User enter valid Username and Password")
-	public void user_enter_valid_username_and_password() { 
+	@When("User enters valid Username and Password for sauce demo")
+	public void user_enters_valid_username_and_password_for_sauce_demo() {
 		driver.findElement(By.id("user-name")).sendKeys("standard_user");
 		driver.findElement(By.id("password")).sendKeys("secret_sauce");
-	}
-
-	@Then("User should be logged in successfully")
-	public void User_should_be_logged_in_successfully() {
 		driver.findElement(By.id("login-button")).click();
 	}
-
-	@Then("Quit the browser")
-	public void quit_the_browser() {
-		//driver.close();
-		System.out.println("Browser closed Successfully");
+	@Then("User should be logged in sauce Demo page successfully")
+	public void user_should_be_logged_in_sauce_demo_page_successfully() {
+		System.out.println("Logged in successfully");
 	}
-
 }
