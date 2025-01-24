@@ -13,14 +13,11 @@ public class hooksClass extends drivers {
 	public void browserLaunch(Scenario scenario) {
 
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-
-		if (scenario.getSourceTagNames().contains("@DemoBlaze")) {
-			driver.get("https://www.demoblaze.com/");
-		} else {
-			driver.get("http://192.168.99.141:3000/");
-		}
-
+		    driver.manage().window().maximize();
+	    if (scenario.getSourceTagNames().contains("@DemoBlaze")) {
+	        driver.get("https://www.demoblaze.com/");
+	    } else {
+	        driver.get("http://192.168.99.141:3000/");	    }
 	}
 
 	@After
