@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 									"html:target/htmlreport.html" },
 				snippets = SnippetType.UNDERSCORE,
 				tags = "@All_Scenarios", 
-				dryRun = true		
+				dryRun = false		
 				)
 public class RunnerClass extends AbstractTestNGCucumberTests {
 
