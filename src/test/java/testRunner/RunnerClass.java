@@ -2,7 +2,6 @@ package testRunner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
-import io.cucumber.testng.CucumberOptions.SnippetType;
 
 @CucumberOptions(
 				features = "src/test/resources", 
@@ -11,7 +10,7 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 							"html:target\\htmlreport.html" },
 				//Snippet = SnippetType.UNDERSCORE,
 				tags = "@All_Scenarios", 
-				dryRun = true		
+				dryRun = false		
 				)
 public class RunnerClass extends AbstractTestNGCucumberTests {
 
