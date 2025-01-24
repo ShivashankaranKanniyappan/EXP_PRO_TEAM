@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 				plugin = { "pretty", "json:target/cucumber.json", 
 									"html:target/htmlreport.html" },
 				snippets = SnippetType.UNDERSCORE,
-				tags = "@All_Scenarios", 
+				tags = "@Sauce_Demo", 
 				dryRun = false		
 				)
 public class RunnerClass extends AbstractTestNGCucumberTests {
