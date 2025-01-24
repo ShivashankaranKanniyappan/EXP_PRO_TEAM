@@ -28,34 +28,34 @@ public class F13_ProductSearchDemoBlaze extends drivers {
 
 		WebElement passwordField = driver.findElement(By.id("loginpassword"));
 		passwordField.sendKeys("password123");
-		Thread.sleep(2000);
+		Thread.sleep(2000);	
 
 		WebElement loginSubmitButton = driver.findElement(By.xpath("//button[text()='Log in']"));
-		loginSubmitButton.click();
+		loginSubmitButton.click();	
 		Thread.sleep(7000);
-    }
+	}
 
 	@When("user search for {string}")
 	public void user_search_for(String string) throws InterruptedException {
-    	WebElement product = driver.findElement(By.xpath("//a[text()='Samsung galaxy s6']"));
-        product.click();
-        Thread.sleep(7000);
-        WebElement addToCartButton = driver.findElement(By.xpath("//a[text()='Add to cart']"));
-        addToCartButton.click();
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.alertIsPresent()).accept();
-        Thread.sleep(2000);
-    }
+		WebElement product = driver.findElement(By.xpath("//a[text()='Samsung galaxy s6']"));
+		product.click();
+		Thread.sleep(7000);
+		WebElement addToCartButton = driver.findElement(By.xpath("//a[text()='Add to cart']"));
+		addToCartButton.click();
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.alertIsPresent()).accept();
+		Thread.sleep(2000);
+	}
 
-    @Then("user should see the product in the cart")
-    public void userShouldSeeTheProductInTheCart() {
-    
-        
-    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        WebElement cartButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("cartur")));
-        cartButton.click();
-        
-        //WebElement cartProduct = driver.findElement(By.xpath("//td[text()='Samsung galaxy s6']"));
-        //assert cartProduct.isDisplayed();
-    }
+	@Then("user should see the product in the cart")
+	public void userShouldSeeTheProductInTheCart() {
+
+
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebElement cartButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("cartur")));
+		cartButton.click();
+
+		//WebElement cartProduct = driver.findElement(By.xpath("//td[text()='Samsung galaxy s6']"));
+		//assert cartProduct.isDisplayed();
+	}
 }
