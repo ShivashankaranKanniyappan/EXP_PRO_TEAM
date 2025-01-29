@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.CucumberOptions.SnippetType;
 
 @CucumberOptions(
-				features = "src/test/resources/", 
+				features = "src/test/resources", 
 				glue = {"stepDefinition", "hooks"}, 
 				plugin = { "pretty", "json:target/cucumber.json", 
 									"html:target/htmlreport.html" },
