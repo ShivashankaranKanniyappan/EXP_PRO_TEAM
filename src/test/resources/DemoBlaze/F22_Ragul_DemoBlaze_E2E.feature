@@ -1,4 +1,4 @@
-@DemoBlaze @All_Scenarios
+@All_Scenarios @DemoBlaze
 Feature: FS22_DemoBlaze_Ragul Demoblaze Website - Adding a Product to Cart
 Author: Ragul
 
