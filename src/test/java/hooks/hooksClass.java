@@ -14,11 +14,13 @@ public class hooksClass extends drivers {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		if (scenario.getSourceTagNames().contains("@DemoBlaze")) {
-		    driver.get("https://www.demoblaze.com/");
+			driver.get("https://www.demoblaze.com/");    
 		} else if (scenario.getSourceTagNames().contains("@Sauce_Demo")) {
-		    driver.get("https://www.saucedemo.com");
+			driver.get("https://www.saucedemo.com");
+		} else if (scenario.getSourceTagNames().contains("@Internet")) {
+			driver.get("https://the-internet.herokuapp.com/login");    
 		} else {
-		    driver.get("http://192.168.99.141:3000/");
+			driver.get("http://192.168.99.141:3000/");
 		}
 	}
 

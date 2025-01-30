@@ -55,23 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
 </tr><tr>
-<<<<<<< HEAD
-<td>Started on:</td><td>Wed Jan 29 17:09:17 IST 2025</td>
+<td>Started on:</td><td>Thu Jan 30 16:01:45 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>19 seconds (19106 ms)</td>
-=======
-<<<<<<< HEAD
-<td>Started on:</td><td>Wed Jan 29 16:43:14 IST 2025</td>
-</tr>
-<tr><td>Total time:</td><td>2 seconds (2511 ms)</td>
-=======
-<td>Started on:</td><td>Tue Jan 28 17:20:15 IST 2025</td>
-</tr>
-<tr><td>Total time:</td><td>371 seconds (371934 ms)</td>
->>>>>>> 343304303587fd722b178ae73daeeb8f512d9bb4
->>>>>>> f7d948117599fb250ee82576977799393eec627a
+<tr><td>Total time:</td><td>79 seconds (79703 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -79,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -88,264 +76,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<<<<<<< HEAD
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User views a product and adds it to the wishlist", "FS24_DemoBlaze_Ragul Demoblaze- Demoblaze website product viewing and wishlist functionality"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;tag name&quot;,&quot;selector&quot;:&quot;h2&quot;}
-  (Session info: chrome=128.0.6613.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dadd1e09f1d731914b6a3d6632cb90ea, findElement {using=tag name, value=h2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\8800\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53153/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dadd1e09f1d731914b6a3d6632cb90ea
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at stepDefinition.F23_DemoBlazeWishlist.productDetailsDisplayed(F23_DemoBlazeWishlist.java:46)
-	at ✽.the product details for &quot;Sony vaio i5&quot; should be displayed(file:///C:/Users/8800/git/EXP_PRO_TEAM/src/test/resources/F23_Ragul_DemoBalze_Whishlist.feature:8)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1332208607", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1332208607'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;tag name&quot;,&quot;selector&quot;:&quot;h2&quot;}
-  (Session info: chrome=128.0.6613.86)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dadd1e09f1d731914b6a3d6632cb90ea, findElement {using=tag name, value=h2}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.86, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\8800\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53153/devtoo..., se:cdpVersion: 128.0.6613.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dadd1e09f1d731914b6a3d6632cb90ea
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at stepDefinition.F23_DemoBlazeWishlist.productDetailsDisplayed(F23_DemoBlazeWishlist.java:46)
-	at ✽.the product details for &quot;Sony vaio i5&quot; should be displayed(file:///C:/Users/8800/git/EXP_PRO_TEAM/src/test/resources/F23_Ragul_DemoBalze_Whishlist.feature:8)
-</pre></div></td>
-<td>18</td>
-=======
-<<<<<<< HEAD
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a product to the cart", "FS13_DemoBlaze_Ragul_Product Search"</td>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User Login and Logout Workflow", "Automating advanced features on The Internet website"</td>
 <td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
+<td>16</td>
+<td>testRunner.RunnerClass@75db5df9</td></tr>
 <tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of Empty credentials", "Expleosurance02_Shiva_Invalid login Credentials"</td>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "File Upload and Validation", "Automating advanced features on The Internet website"</td>
 <td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
+<td>23</td>
+<td>testRunner.RunnerClass@75db5df9</td></tr>
 <tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete the Managed Users", "Expleosurance08_Aarthi_Admin Panel"</td>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Work with Checkboxes", "Automating advanced features on The Internet website"</td>
 <td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
+<td>7</td>
+<td>testRunner.RunnerClass@75db5df9</td></tr>
 <tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User is changing the Password", "Expleosurance05_Suthir_Forget password functionalities"</td>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Interact with Dropdown and Select Options", "Automating advanced features on The Internet website"</td>
 <td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
+<td>6</td>
+<td>testRunner.RunnerClass@75db5df9</td></tr>
 <tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating New Insurance Details - Without Fields", "Expleosurance10_Shiva_New Insurance Details - Negative Test Cases"</td>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Handle JavaScript Alerts and Confirmations", "Automating advanced features on The Internet website"</td>
 <td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
+<td>16</td>
+<td>testRunner.RunnerClass@75db5df9</td></tr>
 <tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of invalid credentials", "Expleosurance02_Shiva_Invalid login Credentials"</td>
+<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Handle Multiple Windows", "Automating advanced features on The Internet website"</td>
 <td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of Empty credentials", "Expleosurance02_Shiva_Invalid login Credentials"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "SD18_Suthir_SauceDemo_Print the Header Swag Labs"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of Empty credentials", "Expleosurance02_Shiva_Invalid login Credentials"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating New Insurance Details - Without Fields", "Expleosurance10_Shiva_New Insurance Details - Negative Test Cases"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of Premium Calculation in Payment Page", "Expleosurance11_Shiva_Payment Page Validation"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user enters insurance policy details", "Expleosurance06_Aarthi_New Insurance"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "SauceDemo Successful login with valid credentials", "SD16_SauceDemo_Aarthi_Login faunctionality"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Print table header in console", "Expleosurance04_Suthir_Get Table Header"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user register the new account", "Expleosurance07_Aarthi_Register New Account"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "SD20_Suthir_SauceDemo_Add to cart product"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user enters insurance policy details", "Expleosurance06_Aarthi_New Insurance"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully proceed to checkout", "FS14_DemoBlaze_Ragul_Checkout Process"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "SD21_Suthir_SauceDemo_Multiple Remove Products"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "FS12_DemoBlaze_Ragul_User Login"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Delete Policy for Cancel button", "Expleosurance03_Suthir_Delete Policy"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Delete Policy and Yes button", "Expleosurance03_Suthir_Delete Policy"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user enters insurance policy details", "Expleosurance06_Aarthi_New Insurance"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "SD19_SauceDemo_Suthir_Add to cart product"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of invalid credentials", "Expleosurance02_Shiva_Invalid login Credentials"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating New Insurance Details - Without Fields", "Expleosurance10_Shiva_New Insurance Details - Negative Test Cases"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful login with valid credentials", "SD17_SauceDemo_Aarthi_Logout Sauce Demo"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating New Insurance Details - Without Fields", "Expleosurance10_Shiva_New Insurance Details - Negative Test Cases"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Title and Current URL", "Expleosurance09_Shiva_Get Title and Current URL"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User successfully navigates to the "Laptops" category", "FS17_DemoBlaze_Ragul_Navigating to Categories"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of invalid credentials", "Expleosurance02_Shiva_Invalid login Credentials"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation of Login using valid credentials", "Expleosurance01_Shiva_Login credentials"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user enters insurance policy details", "Expleosurance06_Aarthi_New Insurance"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating New Insurance Details - Without Fields", "Expleosurance10_Shiva_New Insurance Details - Negative Test Cases"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "user enters insurance policy details", "Expleosurance06_Aarthi_New Insurance"</td>
-<td></td>
-<td>0</td>
-<td>testRunner.RunnerClass@33c911a1</td></tr>
-=======
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding a product to the cart with various user inputs", "FS22_DemoBlaze_Ragul Demoblaze Website - Adding a Product to Cart"</td>
-<td></td>
-<td>74</td>
-<td>testRunner.RunnerClass@65d09a04</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding a product to the cart with various user inputs", "FS22_DemoBlaze_Ragul Demoblaze Website - Adding a Product to Cart"</td>
-<td></td>
-<td>73</td>
-<td>testRunner.RunnerClass@65d09a04</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding a product to the cart with various user inputs", "FS22_DemoBlaze_Ragul Demoblaze Website - Adding a Product to Cart"</td>
-<td></td>
-<td>74</td>
-<td>testRunner.RunnerClass@65d09a04</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding a product to the cart with various user inputs", "FS22_DemoBlaze_Ragul Demoblaze Website - Adding a Product to Cart"</td>
-<td></td>
-<td>74</td>
-<td>testRunner.RunnerClass@65d09a04</td></tr>
-<tr>
-<td title='testRunner.RunnerClass.runScenario()'><b>runScenario</b><br>Test class: testRunner.RunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Adding a product to the cart with various user inputs", "FS22_DemoBlaze_Ragul Demoblaze Website - Adding a Product to Cart"</td>
-<td></td>
-<td>73</td>
->>>>>>> f7d948117599fb250ee82576977799393eec627a
-<td>testRunner.RunnerClass@65d09a04</td></tr>
->>>>>>> 343304303587fd722b178ae73daeeb8f512d9bb4
+<td>8</td>
+<td>testRunner.RunnerClass@75db5df9</td></tr>
 </table><p>
 </body>
 </html>

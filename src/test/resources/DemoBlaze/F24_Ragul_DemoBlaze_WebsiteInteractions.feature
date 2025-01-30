@@ -1,6 +1,6 @@
 @All_Scenarios @DemoBlaze
-Feature: FS24_DemoBlaze_Ragul Demoblaze - Website Interaction with Demo Blaze website for browsing and navigation
-
+Feature: Ragul_29JAN2025_DemoBlaze_Website Interaction with Demo Blaze website for browsing and navigation
+Author: Ragul
   #As a user
   #I want to interact with the Demo Blaze website
   #So that I can test different website functionalities.
