@@ -1,12 +1,12 @@
 package testRunner;
-
+ 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.CucumberOptions.SnippetType;
-
+ 
 @CucumberOptions(
-
-
+ 
+ 
 				features = {"src/test/resources/ExpleoSurance", 
 							"src/test/resources/DemoBlaze", 
 							"src/test/resources/SauceDemo"},
@@ -18,7 +18,6 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 				dryRun = true
 				)
 public class RunnerClass extends AbstractTestNGCucumberTests {
-
-	
+ 
 	
 }
