@@ -1,4 +1,4 @@
-@Sauce_Demo @All_Scenarios
+@DemoBlaze @All_Scenarios
 Feature: Ragul_04Feb2025_ Advanced Interactions with Sauce Labs Website
 
   Scenario: Verify that all products are displayed after login with a custom user
