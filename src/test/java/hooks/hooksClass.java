@@ -18,7 +18,9 @@ public class hooksClass extends drivers {
 		} else if (scenario.getSourceTagNames().contains("@Sauce_Demo")) {
 			driver.get("https://www.saucedemo.com");
 		} else if (scenario.getSourceTagNames().contains("@Internet")) {
-			driver.get("https://the-internet.herokuapp.com/login");    
+			driver.get("https://the-internet.herokuapp.com/login");   
+		}else if (scenario.getSourceTagNames().contains("@AutoTestStore")) {
+			driver.get("https://www.automationteststore.com/"); 	
 		} else {
 			driver.get("http://192.168.99.141:3000/");
 		}

@@ -23,7 +23,8 @@ public class F26_TheInternetExtendedFeatures  extends drivers {
 	}
 
 	@When("I click the Click for JS Prompt button")
-	public void iClickTheClickForJSPromptButton() {
+	public void iClickTheClickForJSPromptButton() throws InterruptedException {
+		Thread.sleep(3000);
 		WebElement jsPromptButton = driver.findElement(By.xpath("//button[contains(text(), 'Click for JS Prompt')]"));
 		jsPromptButton.click();
 	}
@@ -215,7 +216,7 @@ public class F26_TheInternetExtendedFeatures  extends drivers {
 	        
 	        String newContent = driver.findElement(By.id("content")).getText();
 	    
-	        assertNotEquals("Content did not change after reload!", initialContent, newContent);
+	       assertNotEquals("Content did not change after reload!", initialContent, newContent);
 	       
 	        driver.quit();
 	    }
