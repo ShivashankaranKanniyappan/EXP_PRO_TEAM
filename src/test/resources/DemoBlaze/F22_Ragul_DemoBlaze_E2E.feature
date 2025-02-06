@@ -1,5 +1,5 @@
-@All_Scenarios @Sauce_Demo
-Feature: FS22_DemoBlaze_Ragul Demoblaze Website - Adding a Product to Cart
+@All_Scenarios @DemoBlaze
+Feature: Ragul_28JAN2025_DemoBlaze_Adding a Product to Cart
 Author: Ragul
 
   Scenario Outline: Adding a product to the cart with various user inputs
