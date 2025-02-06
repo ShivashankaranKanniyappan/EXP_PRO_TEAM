@@ -1,6 +1,6 @@
 @All_Scenarios
 @DemoBlaze
-Feature: FS13_DemoBlaze_Ragul_Product Search
+Feature: Ragul_24JAN2025_DemoBlaze_SearchProduct
 Author: Ragul
 
  Scenario: Add a product to the cart

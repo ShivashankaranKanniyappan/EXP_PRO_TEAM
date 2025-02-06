@@ -1,6 +1,6 @@
 @All_Scenarios
 @DemoBlaze
-Feature: FS12_DemoBlaze_Ragul_User Login
+Feature: Ragul_24JAN2025_DemoBlaze_User Login
   Author: Ragul
 
   Scenario: Successful login with valid credentials
