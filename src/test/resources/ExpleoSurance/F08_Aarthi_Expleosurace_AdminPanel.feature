@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Expleosurance08_Aarthi_Admin Panel
+Feature: Aarthi_Feb302025_SauceDemo_Admin Panel
   Author: Aarthi
 
   Scenario Outline: Delete the Managed Users

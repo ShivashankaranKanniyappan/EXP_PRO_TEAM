@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Expleosurance06_Aarthi_New Insurance
+Feature: Aarthi_Jan312025_SauceDemo_New Insurance
 Author: Aarthi
 	
 
