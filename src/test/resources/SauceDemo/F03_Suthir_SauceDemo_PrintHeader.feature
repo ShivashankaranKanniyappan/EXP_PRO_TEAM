@@ -1,5 +1,5 @@
 @All_Scenarios @Sauce_Demo
-Feature: SD18_Suthir_SauceDemo_Print the Header Swag Labs
+Feature: SD18_Suthir_28JAN2025_SauceDemo_Print the Header Swag Labs
   Author: Suthir
 
   Scenario: Successful login with valid credentials

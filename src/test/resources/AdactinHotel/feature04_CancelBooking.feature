@@ -1,6 +1,6 @@
 @All_Scenarios
 @Adactin
-Feature: Adactin Hotel - Cancel Booking
+Feature: Adactin_Suthir_06feb2025_Adactin Hotel - Cancel Booking
 
 Author: Suthir
 

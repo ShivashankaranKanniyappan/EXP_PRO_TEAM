@@ -1,6 +1,6 @@
 @All_Scenarios
 @Adactin
-Feature: Suthir_05feb2025_Adactin Hotel Booking Validation
+Feature: Adactin_Suthir_05feb2025_Adactin Hotel Booking Validation
 Author: Suthir
 
   @valid_Login

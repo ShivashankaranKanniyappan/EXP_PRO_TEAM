@@ -1,6 +1,6 @@
 Feature: Filter validation
 
-  Scenario: Validation of filers
+  Scenario: Suthir_29JAN2025_Validation of filers
     Given User navigate to the Sauce Demo login page
     When User enter valid Username and Password
     And User should be logged in successfully

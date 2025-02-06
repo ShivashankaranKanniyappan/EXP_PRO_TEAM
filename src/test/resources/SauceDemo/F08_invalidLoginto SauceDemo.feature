@@ -1,5 +1,5 @@
 @LoginPage
-Feature: Invalid Login to Sauce Demo
+Feature: Suthir_29JAN2025_Invalid Login to Sauce Demo
   #Author: Suthir
   Scenario: UnSuccessful login with invalid credentials
     Given User navigate to the Sauce Demo login page
