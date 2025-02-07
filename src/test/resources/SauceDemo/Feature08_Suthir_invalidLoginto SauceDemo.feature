@@ -1,4 +1,4 @@
-@LoginPage
+@All_Scenarios @Sauce_Demo
 Feature: Suthir_29JAN2025_Invalid_Login_to_Sauce_Demo
   #Author: Suthir
   Scenario: UnSuccessful login with invalid credentials

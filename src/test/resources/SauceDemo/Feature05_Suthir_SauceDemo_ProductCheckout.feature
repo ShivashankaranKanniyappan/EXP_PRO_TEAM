@@ -1,5 +1,5 @@
 @All_Scenarios @Sauce_Demo
-Feature: Suthir_28JAN2025_SauceDemo_Add_to_cart_product
+Feature: Suthir_28JAN2025_SauceDemo_Checkout
   Author: Suthir
 
   Scenario: Successful login with valid credentials

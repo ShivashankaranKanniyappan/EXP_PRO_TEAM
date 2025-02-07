@@ -20,10 +20,7 @@ public class Feature06_Multipleproductsremove extends drivers {
 	@Then("user removes the product from the cart")
 	public void user_removes_the_product_from_the_cart() throws InterruptedException {
 		driver.findElement(By.name("remove-sauce-labs-bolt-t-shirt")).click();
-		Thread.sleep(4000);
-	    
+		Thread.sleep(4000); 
 	}
-
-		
 
 }

@@ -1,3 +1,4 @@
+@All_Scenarios @Sauce_Demo
 Feature: Suthir_29JAN2025_Validation_of_filers
 
   Scenario: Filter validation
