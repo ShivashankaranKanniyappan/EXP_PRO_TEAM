@@ -1,6 +1,6 @@
 @All_Scenarios
 @Adactin
-Feature: Adactin_Suthir_06feb2025_Adactin Hotel - Search Hotel
+Feature: Suthir_06feb2025_Adactin_Hotel_logout
 
 Author: Suthir
   @search_Hotel

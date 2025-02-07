@@ -1,7 +1,6 @@
-@All_Scenarios
-@Adactin
-Feature: Adactin_Suthir_05feb2025_Adactin Hotel Booking Validation
-Author: Suthir
+@All_Scenarios @Adactin
+Feature: Suthir_05feb2025_Adactin_Hotel_Login_Validation
+  Author: Suthir
 
   @valid_Login
   Scenario Outline: Validation of Login Credentials

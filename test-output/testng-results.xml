@@ -2,6 +2,7 @@
 <testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2025-02-07T11:13:39 IST" name="Default suite" finished-at="2025-02-07T11:13:40 IST" duration-ms="526">
     <groups>
       <group name="cucumber">
@@ -15,6 +16,21 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@2a5b3fee]]>
+=======
+  <suite started-at="2025-02-07T16:46:32 IST" name="Default suite" finished-at="2025-02-07T16:46:33 IST" duration-ms="611">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.RunnerClass@8c3b9d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-02-07T16:46:32 IST" name="Default test" finished-at="2025-02-07T16:46:33 IST" duration-ms="611">
+      <class name="testRunner.RunnerClass">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.RunnerClass@8c3b9d]" started-at="2025-02-07T16:46:32 IST" name="setUpClass" finished-at="2025-02-07T16:46:33 IST" duration-ms="554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6970140a]]>
+>>>>>>> 05355af4f4c07e6549d6e8d5518432e70aab4b96
               </value>
             </param>
           </params>
@@ -71,7 +87,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.RunnerClass@33c911a1]" started-at="2025-02-07T11:13:40 IST" name="tearDownClass" finished-at="2025-02-07T11:13:40 IST" duration-ms="2" status="PASS">
+=======
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.RunnerClass@8c3b9d]" started-at="2025-02-07T16:46:33 IST" name="tearDownClass" finished-at="2025-02-07T16:46:33 IST" duration-ms="25" status="PASS">
+>>>>>>> 05355af4f4c07e6549d6e8d5518432e70aab4b96
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
