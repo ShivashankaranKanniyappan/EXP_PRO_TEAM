@@ -1,7 +1,7 @@
 #Author: Suthir
 @All_Scenarios
 #@ForgetPassword
-Feature: Expleosurance05_Suthir_Forget password functionalities
+Feature: Expleosurance05_Suthir_22Jan2025_Forget password functionalities
 #Author: Suthir
 
   @ChangePassword

@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Expleosurance10_Shiva_New Insurance Details - Negative Test Cases
+Feature: Expleosurance10_Shiva_21Jan2025_New Insurance Details - Negative Test Cases
   Author: ShivaShankaran
 
   Scenario Outline: Validating New Insurance Details - Without Fields
