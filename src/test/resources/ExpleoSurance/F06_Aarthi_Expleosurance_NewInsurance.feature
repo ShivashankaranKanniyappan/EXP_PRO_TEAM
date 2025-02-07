@@ -1,5 +1,9 @@
 @All_Scenarios
+<<<<<<< HEAD
 Feature: Expleosurance06_Aarthi_22Jan2025_New Insurance
+=======
+Feature: Aarthi_Jan312025_SauceDemo_New Insurance
+>>>>>>> d6da86ab8d3ec9df6bafe0d5d63e0ad044ec440f
 Author: Aarthi
 	
 

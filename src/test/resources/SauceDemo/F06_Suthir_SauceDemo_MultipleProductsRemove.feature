@@ -1,5 +1,5 @@
 @All_Scenarios @Sauce_Demo
-Feature: SD21_Suthir_SauceDemo_Multiple Remove Products
+Feature: SD21_Suthir_28JAN2025_SauceDemo_Multiple Remove Products
   Author: Suthir
 
   Scenario: Successful login with valid credentials
