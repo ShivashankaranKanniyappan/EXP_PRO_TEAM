@@ -1,6 +1,6 @@
 @All_Scenarios
 #@TableHeader
-Feature: Expleosurance04_Suthir_Get Table Header
+Feature: Expleosurance04_Suthir_22Jan2025_Get Table Header
 #Author: Suthir
   @scenario_01
   Scenario Outline: Print table header in console

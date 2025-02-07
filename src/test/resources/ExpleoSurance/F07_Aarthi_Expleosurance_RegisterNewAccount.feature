@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Aarthi_Jan302025_SauceDemo_Register New Account
+Feature: Expleosurance07_Aarthi_22Jan2025_Register New Account
 Author: Aarthi
 
   Scenario Outline: user register the new account

@@ -5,19 +5,16 @@ import java.time.Duration;
 import org.jspecify.annotations.Nullable;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import baseClass_Shiva.BaseClass;
 import io.cucumber.java.en.*;
 
-public class AHP02_Adactin_SearchHotelSteps extends BaseClass {
+public class AHP02_Adactin_SearchHotelSteps extends baseClass_Shiva.BaseClass {
 
 	@Given("User should be in Adactin Hotel Home page")
 	public void userShouldBeInAdactinHotelHomePage() {
-		findElementID("username").sendKeys("shivashankaranssk");
-		findElementID("password").sendKeys("Shiva@1919");
+		findElementID("username").sendKeys("TestingSuthir");
+		findElementID("password").sendKeys("Test@123");
 		findElementXpath("//input[@type='Submit']").click();
 		WebElement welcome = findElementXpath("//td[@class='welcome_menu']");
 		String text = welcome.getText();
@@ -67,6 +64,7 @@ public class AHP02_Adactin_SearchHotelSteps extends BaseClass {
 	@When("User should enter the {string}, {string}, {string}, {string}, {string}, {string}, {string}, {string}")
 	public void userShouldEnterThe(String FirstName, String LastName, 
 			String BillingAddress, String CCNumber, String CCType, String ExpiryMonth, String ExpiryYear, String CVV) {
+		
 		findElementName("first_name").sendKeys(FirstName);
 		findElementXpath("//input[@name='last_name']").sendKeys(LastName);
 		findElementXpath("//textarea[@class='txtarea']").sendKeys(BillingAddress);

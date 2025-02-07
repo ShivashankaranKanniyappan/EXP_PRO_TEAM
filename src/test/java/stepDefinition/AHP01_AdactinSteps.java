@@ -10,11 +10,9 @@ import java.util.NoSuchElementException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-
-import baseClass_Shiva.BaseClass;
 import io.cucumber.java.en.*;
 
-public class AHP01_AdactinSteps extends BaseClass {
+public class AHP01_AdactinSteps extends baseClass_Shiva.BaseClass {
 
 	@Given("User is on the Adactin Login page")
 	public void user_is_on_the_adactin_login_page() {

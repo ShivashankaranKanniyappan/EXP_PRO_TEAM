@@ -19,8 +19,7 @@ public class hooksClass extends drivers {
 			driver.get("https://www.saucedemo.com");
 		} else if (scenario.getSourceTagNames().contains("@Adactin")) {
 			driver.get("hhttps://adactinhotelapp.com/"); 
-		}
-		else {
+		} else {
 			driver.get("http://192.168.99.141:3000/");
 		}
 	}

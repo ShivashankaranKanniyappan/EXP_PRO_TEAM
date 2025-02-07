@@ -7,11 +7,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import baseClass_Shiva.BaseClass;
 import io.cucumber.java.en.*;
 
-public class AHP04_CancelBooking extends BaseClass {
+public class AHP04_CancelBooking extends baseClass_Shiva.BaseClass {
 	
 	@When("User clicks the Booked Itinerary")
 	public void userClicksTheBookedItinerary() {
@@ -25,7 +23,7 @@ public class AHP04_CancelBooking extends BaseClass {
 			String text = header.getText();
 			System.out.println(text);
 		}
-		findElementXpath("//tr[3]/td[3]//input[@id='btn_id_1298761']").click();
+		findElementXpath("//input[@id='btn_id_1301012']").click();
 	}
 	@When("select OK in alert")
 	public void selectOKInAlert() {

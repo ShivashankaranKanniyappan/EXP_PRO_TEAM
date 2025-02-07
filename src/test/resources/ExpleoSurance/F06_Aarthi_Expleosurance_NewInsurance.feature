@@ -1,7 +1,6 @@
 @All_Scenarios
-Feature: Aarthi_Jan312025_SauceDemo_New Insurance
-Author: Aarthi
-	
+Feature: Expleosurance06_Aarthi_22Jan2025_New Insurance
+  Author: Aarthi
 
   Scenario Outline: user enters insurance policy details
     Given user is on the login page with valid credentials

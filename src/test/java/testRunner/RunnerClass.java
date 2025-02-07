@@ -5,6 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.CucumberOptions.SnippetType;
  
 @CucumberOptions(
+		
 				features = {"src/test/resources/ExpleoSurance", 
 							"src/test/resources/DemoBlaze", 
 							"src/test/resources/SauceDemo",
@@ -15,6 +16,7 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 				snippets = SnippetType.UNDERSCORE,
 				tags = "@All_Scenarios", 
 				dryRun = true
+				
 				)
 public class RunnerClass extends AbstractTestNGCucumberTests {
  

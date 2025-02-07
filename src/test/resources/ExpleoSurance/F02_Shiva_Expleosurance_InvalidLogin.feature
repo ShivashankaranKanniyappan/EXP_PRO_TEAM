@@ -1,5 +1,5 @@
 @All_Scenarios
-Feature: Expleosurance02_Shiva_Invalid login Credentials
+Feature: Expleosurance02_Shiva_21Jan2025_Invalid login Credentials
   Author: ShivaShankaran
 	
   Scenario Outline: Validation of invalid credentials
