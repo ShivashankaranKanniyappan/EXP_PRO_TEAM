@@ -10,7 +10,8 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 							"src/test/resources/DemoBlaze", 
 							"src/test/resources/SauceDemo",
 							"src/test/resources/AdactinHotel",
-							"src/test/resources/SportsJam"},
+							"src/test/resources/SportsJam",
+							"src/test/resources/RedBus"},
 				
 				glue = {"stepDefinition", "hooks"}, 
 				plugin = { "pretty", "json:target/cucumber.json", 
