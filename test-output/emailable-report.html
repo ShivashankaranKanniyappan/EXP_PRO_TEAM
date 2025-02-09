@@ -9,10 +9,64 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
+<<<<<<< HEAD
 <tr><td><a href="#t0">Default test</a></td><td class="num">80</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">2,274</td><td></td><td></td></tr>
+=======
+<<<<<<< HEAD
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">526</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testRunner.RunnerClass</td><td><a href="#m0">setUpClass</a></td><td rowspan="1">1738907019781</td><td rowspan="1">464</td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">testRunner.RunnerClass#setUpClass</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>org.testng.TestRunner@2a5b3fee</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">io.cucumber.core.gherkin.FeatureParserException: Failed to parse resource at: file:///C:/Users/skanniyappan/git/repository/EXP_PROJECT_TEAM/src/test/resources/ExpleoSurance/F06_Aarthi_Expleosurance_NewInsurance.feature
+(2:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got &apos;&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD&apos;
+	at io.cucumber.core.gherkin.messages.GherkinMessagesFeatureParser.parse(GherkinMessagesFeatureParser.java:56)
+	at io.cucumber.core.feature.FeatureParser.parseResource(FeatureParser.java:46)
+	at java.base/java.util.function.BiFunction.lambda$andThen$0(BiFunction.java:70)
+	at io.cucumber.core.resource.ResourceScanner.lambda$processResource$1(ResourceScanner.java:79)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:75)
+	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:60)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2810)
+	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:53)
+	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:31)
+	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
+	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
+	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
+	at io.cucumber.testng.TestNGCucumberRunner.&lt;init&gt;(TestNGCucumberRunner.java:125)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+=======
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">611</td><td></td><td></td></tr>
+>>>>>>> 3f1c9a3dac8541de5fe77393f83f4e2766d4046c
 </table>
 <table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">testRunner.RunnerClass</td><td><a href="#m0">runScenario</a></td><td rowspan="3">1739100978566</td><td rowspan="3">69</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr><tr class="failedeven"><td><a href="#m2">runScenario</a></td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="80">testRunner.RunnerClass</td><td><a href="#m3">runScenario</a></td><td rowspan="80">1739100977813</td><td rowspan="80">18</td></tr><tr class="passedeven"><td><a href="#m4">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m5">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m6">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m7">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m8">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m9">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m10">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m11">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m12">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m13">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m14">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m15">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m16">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m17">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m18">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m19">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m20">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m21">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m22">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m23">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m24">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m25">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m26">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m27">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m28">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m29">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m30">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m31">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m32">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m33">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m34">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m35">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m36">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m37">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m38">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m39">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m40">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m41">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m42">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m43">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m44">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m45">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m46">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m47">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m48">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m49">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m50">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m51">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m52">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m53">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m54">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m55">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m56">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m57">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m58">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m59">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m60">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m61">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m62">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m63">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m64">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m65">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m66">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m67">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m68">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m69">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m70">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m71">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m72">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m73">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m74">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m75">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m76">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m77">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m78">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m79">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m80">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m81">runScenario</a></td></tr><tr class="passedeven"><td><a href="#m82">runScenario</a></td></tr></tbody>
 </table>
+<<<<<<< HEAD
 <h2>Default test</h2><h3 id="m0">testRunner.RunnerClass#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Successful login with valid credentials&quot;</td><td>&quot;Suthir_29JAN2025_Add_all_the_Products&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">io.cucumber.testng.UndefinedStepException: The step &apos;User navigate to the Sauce Demo login page&apos; and 2 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
@@ -246,4 +300,8 @@ public void user_navigate_to_the_sauce_demo_login_page() {
 <h3 id="m81">testRunner.RunnerClass#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Validation of Login Credentials&quot;</td><td>&quot;Suthir_05feb2025_Adactin_Hotel_Login_Validation&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m82">testRunner.RunnerClass#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;File Upload and Validation&quot;</td><td>&quot;Ragul_30JAN2025_herokuapp_Automating advanced features on The Internet website&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
+=======
+<h2>Default test</h2></body>
+>>>>>>> 05355af4f4c07e6549d6e8d5518432e70aab4b96
+>>>>>>> 3f1c9a3dac8541de5fe77393f83f4e2766d4046c
 </html>
