@@ -1,5 +1,5 @@
 @All_Scenarios @suthir
-Feature: Suthir_10022024_RedBus_BoardingAndDropping feature
+Feature: Suthir_11022024_RedBus_BoardingAndDropping feature
 
   @BoardingAndDropping
   Scenario: Search for a bus from Chennai to Palani
