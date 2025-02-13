@@ -1,5 +1,5 @@
 @All_Scenarios
-@Adactin
+@Adactin @suthir
 Feature: Suthir_06feb2025_Adactin_Hotel_logout
 
 Author: Suthir
@@ -14,7 +14,7 @@ Author: Suthir
     And User should enter the "<FirstName>", "<LastName>", "<BillingAddress>", "<CCNumber>", "<CCType>", "<ExpiryMonth>", "<ExpiryYear>", "<CVV>"
     And User click the bookNow
     And it should show the Order Number
-    Then Page should be logged out
+    Then Page should be logged out in adactin
 
     Examples: 
       | FirstName   | LastName   | BillingAddress | CCNumber         | CCType | ExpiryMonth | ExpiryYear | CVV |

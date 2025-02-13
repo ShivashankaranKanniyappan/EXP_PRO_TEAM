@@ -1,4 +1,5 @@
 @All_Scenarios @Sauce_Demo
+@suthir
 Feature: Suthir_28JAN2025_SauceDemo_Multiple_Remove_Products
   Author: Suthir
 

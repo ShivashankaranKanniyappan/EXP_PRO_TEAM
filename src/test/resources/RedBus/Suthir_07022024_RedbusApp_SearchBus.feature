@@ -1,4 +1,5 @@
-@All_Scenarios 
+@All_Scenarios
+@suthir 
 @RedBus #@Searchbus
 Feature: Suthir_07022024_RedBus_SearchOption feature
 

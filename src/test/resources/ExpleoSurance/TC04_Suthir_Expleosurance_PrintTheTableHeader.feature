@@ -1,4 +1,4 @@
-@All_Scenarios
+@All_Scenarios @suthir
 #@TableHeader
 Feature: Suthir_22Jan2025_Expleosurance_Get_Table_Header
 #Author: Suthir

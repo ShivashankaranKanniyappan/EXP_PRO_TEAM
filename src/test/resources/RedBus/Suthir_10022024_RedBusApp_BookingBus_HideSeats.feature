@@ -1,4 +1,5 @@
 @All_scenarios 
+@suthir
 Feature: Suthir_10022024_RedBus_BookingBus_HideSeats feature
 
   @BookingBusHideSeats

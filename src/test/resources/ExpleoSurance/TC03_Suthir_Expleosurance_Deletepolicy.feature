@@ -1,4 +1,4 @@
-@All_Scenarios
+@All_Scenarios @suthir
 #@deletePolicy
 Feature: Suthir_22Jan2025_Expleosurance_Delete_Policy
 #Author: Suthir

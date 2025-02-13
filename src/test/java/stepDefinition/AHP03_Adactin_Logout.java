@@ -4,7 +4,7 @@ import io.cucumber.java.en.Then;
 
 public class AHP03_Adactin_Logout extends baseClass_Shiva.BaseClass {
 
-	@Then("Page should be logged out")
+	@Then("Page should be logged out in adactin")
 	public void page_should_be_logged_out() {
 		findElementID("logout").click();
 		getCurrentUrl();

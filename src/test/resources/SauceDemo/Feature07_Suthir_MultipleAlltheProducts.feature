@@ -1,11 +1,12 @@
 @All_Scenarios @Sauce_Demo
+@suthir
 Feature: Suthir_29JAN2025_Add_all_the_Products 
 #Author: Suthir
 
   Scenario: Successful login with valid credentials
-    Given User navigate to the Sauce Demo login page
-    When User enter valid Username and Password
-    And User should be logged in successfully
+    Given User should be in Sauce Demo login page
+    When User enters valid Username and Password for sauce demo
+    Then User should be logged in sauce Demo page successfully
     #And Add to Cart products
     And user add all the product to the cart
     And User click the Check out button

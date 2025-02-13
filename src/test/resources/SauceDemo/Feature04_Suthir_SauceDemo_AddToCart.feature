@@ -1,4 +1,5 @@
-@All_Scenarios @Sauce_Demo
+@All_Scenarios @Sauce_Demo 
+@suthir
 Feature: Suthir_28JAN2025_SauceDemo_Add_to_cart_product
   Author: Suthir
 

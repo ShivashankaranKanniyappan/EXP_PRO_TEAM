@@ -1,4 +1,4 @@
-@All_Scenarios @RedBus
+@All_Scenarios @RedBus @suthir
 Feature: Suthir_07022024_RedBus_Searching_EmptyField_feature
 
   #@SearchingEmptyFields

@@ -1,4 +1,4 @@
-@All_Scenarios @Adactin
+@All_Scenarios @Adactin @suthir
 Feature: Suthir_05feb2025_Adactin_Hotel_Login_Validation
   Author: Suthir
 

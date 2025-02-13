@@ -1,5 +1,5 @@
 @All_Scenarios
-@Adactin
+@Adactin @suthir
 Feature: Suthir_06feb2025_Adactin_Hotel_Cancel_Booking
 
 Author: Suthir

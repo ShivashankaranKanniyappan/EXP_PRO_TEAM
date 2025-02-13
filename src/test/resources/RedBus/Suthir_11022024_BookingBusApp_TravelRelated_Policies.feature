@@ -1,4 +1,4 @@
-@All_scenarios
+@All_scenarios @suthir
 Feature: Suthir_10022024_RedBus_TravelRelated_Policies feature
 
   @TravelRelatedPolicy

@@ -1,7 +1,7 @@
-@All_scenarios @suthir
-Feature: Suthir_12022024_RedBus_Amenities feature
+@All_Scenarios @Suthir
+Feature: Suthir_12022024_RedBus_ArrivalTime feature
 
-  @Amenities
+  @ArrivalTime
   Scenario: Search for a bus from Chennai to Palani
     Given I am on the RedBus homepage
     When I enter "Chennai" in the source city field
@@ -11,4 +11,4 @@ Feature: Suthir_12022024_RedBus_Amenities feature
     Then I should see a list of buses from Chennai to Palani
     And Validate the page title should contain "Chennai to Palani"
     Then User click on the bus
-    And User click on the Amenities
+    And User click on the ArrivalTime
