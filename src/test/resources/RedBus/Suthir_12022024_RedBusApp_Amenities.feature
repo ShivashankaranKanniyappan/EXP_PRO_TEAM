@@ -1,4 +1,4 @@
-@All_scenarios @suthir
+@All_Scenarios @suthir
 Feature: Suthir_12022024_RedBus_Amenities feature
 
   @Amenities

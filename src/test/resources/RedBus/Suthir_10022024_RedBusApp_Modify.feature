@@ -1,4 +1,4 @@
-@All_scenarios
+@All_Scenarios
 @suthir
 Feature: Suthir_10022024_RedBus_BookingBus_Modify feature
 

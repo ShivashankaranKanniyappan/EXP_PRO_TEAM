@@ -1,7 +1,6 @@
-@All_scenarios 
+@All_Scenarios 
 @suthir
 Feature: Suthir_10022024_RedBus_BookingBus_HideSeats feature
-
   @BookingBusHideSeats
   Scenario: Search for a bus from Chennai to Palani
     Given I am on the RedBus homepage
